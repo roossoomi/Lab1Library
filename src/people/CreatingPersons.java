@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class CreatingPersons {
-
+public static ArrayList<Object> users = new ArrayList<>();
 
     private static final String[] maleNames = {"Иван", "Олег", "Макар", "Владимир", "Петр", "Роман", "Семен", "Александр",
             "Виктор", "Константин", "Денис", "Даниил", "Ефим", "Егор", "Игнат"};
@@ -33,7 +33,9 @@ public class CreatingPersons {
             }
             Students student = new Students(surname, name);
             allStudents.add(student);
+
         }
+        users.addAll(allStudents);
         return allStudents;
     }
 
@@ -55,18 +57,9 @@ public class CreatingPersons {
             Teachers teacher = new Teachers(surname, name, patronymic);
             allTeachers.add(teacher);
         }
+        users.addAll(allTeachers);
         return allTeachers;
     }
 
-   /* public static void main(String[] args) {
-        ArrayList<Students> generatedStudents = generateStudents(5);
-        for (Students student : generatedStudents) {
-            System.out.println(student.getFullName());
-        }
 
-        ArrayList<Teachers> generatedTeachers = generateTeachers(4);
-        for (Teachers teacher : generatedTeachers) {
-            System.out.println(teacher.getFullName());
-        }
-    }*/
 }

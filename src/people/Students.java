@@ -10,4 +10,9 @@ public class Students extends People {
     public String getFullName(){
         return surname + " " + name;
   }
+
+  @Override
+    public String toString(){
+        return name + " " + surname;
+  }
 }

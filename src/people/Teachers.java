@@ -12,4 +12,7 @@ public class Teachers extends People {
     public String getFullName(){
         return surname + " " + name + " " + patronymic;
     }
-}
+    @Override
+    public String toString(){
+        return surname + " " + name + " " + patronymic;
+}}

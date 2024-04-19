@@ -1,4 +1,4 @@
-import people.CreatingPersons;
+/*import people.CreatingPersons;
 import people.People;
 import people.Students;
 import people.Teachers;
@@ -78,3 +78,4 @@ import java.util.ArrayList;
         }
 
 }
+*/
