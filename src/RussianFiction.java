@@ -1,4 +1,6 @@
 
+import tvar.Book;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -8,7 +10,7 @@ public class RussianFiction extends Book implements RussianBook {
     public static String title;
     private static String filePath = "C:\\Users\\sonya\\IdeaProjects\\Lab1Library\\src\\RussianFiction.txt";
 
-    public static String createRandomRusFic(String filePath) {
+    public static String createRandomRusFic() {
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
 
             int numberOfLines = 0;
@@ -32,14 +34,26 @@ public class RussianFiction extends Book implements RussianBook {
             return title;
         } catch (IOException e) {
             e.printStackTrace();
-            return null;
+            System.out.println("ошибувтвылдвлдцт");
+            return "ggggg";
         }
     }
 
 
-    @Override
-    public String getFullBookTitle() {
+   /* @Override
+    public Book getFullBookTitle() {
         return createRandomRusFic(filePath);
+    }*/
+
+    @Override
+    public String toString(){
+        return GetFullDiscription();
+    }
+
+
+    public String GetFullDiscription() {
+        String FullTitle = this.title;
+        return FullTitle;
     }
 
 

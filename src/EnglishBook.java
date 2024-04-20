@@ -1,3 +1,5 @@
+import tvar.Book;
+
 public interface EnglishBook {
-    String getFullBookTitle();
+    //Book getFullBookTitle();
 }

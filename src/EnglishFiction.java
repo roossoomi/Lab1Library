@@ -1,4 +1,6 @@
 
+import tvar.Book;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -10,7 +12,7 @@ public class EnglishFiction extends Book implements EnglishBook  {
 
 
 
-    public static String createRandomEngFic(String filePath) {
+    public static String createRandomEngFic() {
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             int numberOfLines = 0;
             while (br.readLine() != null) {
@@ -33,16 +35,24 @@ public class EnglishFiction extends Book implements EnglishBook  {
             return fr.readLine();
         } catch (IOException e) {
             e.printStackTrace();
-            return null;
+            return "aaaaa";
         }
     }
 
 
-    @Override
-    public String getFullBookTitle() {
+    /*@Override
+    public Book getFullBookTitle() {
 
         return createRandomEngFic( filePath);
-    }
+    }*/
 
+    public String GetFullDiscription() {
+        String FullTitle = this.title;
+        return FullTitle;
+    }
+@Override
+    public String toString(){
+        return GetFullDiscription();
+}
 
 }

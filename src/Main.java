@@ -1,13 +1,16 @@
-import people.Users;
 
-import static people.Users.libraryUsers;
+import people.People;
 
 public class Main {
     public static void main(String[] args) {
-        Library library = new Library();
-        Users users = new Users();
-        System.out.println("kkk" + libraryUsers.toString());
+        /*Users users = new Users();
 
-
+        for (People user : Users.libraryUsers) {
+           // Library library = new Library(); // Создание новой библиотеки для каждого пользователя
+            System.out.println("User: " + user.toString());
+            users.distributeUsersBooks(user, library);
+            System.out.println("Books for " + user.getFullName() + ": " + user.getUserListBook().toString());*/
+            ArchiveGUI app = new ArchiveGUI();
+            app.setVisible(true);
+        }
     }
-}
