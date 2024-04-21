@@ -1,20 +1,30 @@
-"Pride and Prejudice by Jane Austen (1813)"
-"To Kill a Mockingbird by Harper Lee (1960)"
-"1984 by George Orwell (1949)"
-"The Great Gatsby by F. Scott Fitzgerald (1925)"
-"Jane Eyre by Charlotte Bronte (1847)"
-"The Catcher in the Rye by J.D. Salinger (1951)"
-"Wuthering Heights by Emily Bronte (1847)"
-"Brave New World by Aldous Huxley (1932)"
-"The Picture of Dorian Gray by Oscar Wilde (1890)"
-"Frankenstein by Mary Shelley (1818)"
-"Moby-Dick by Herman Melville (1851)"
-"The Lord of the Rings by J.R.R. Tolkien (1954-1955)"
-"The Handmaid's Tale" by Margaret Atwood (1985)"
-"The Bell Jar by Sylvia Plath (1963)"
-"The Color Purple by Alice Walker (1982)"
-"One Hundred Years of Solitude" by Gabriel Garcia Marquez (1967)"
-"The Grapes of Wrath by John Steinbeck (1939)"
-"A Clockwork Orange by Anthony Burgess (1962)"
-"The Road by Cormac McCarthy (2006)"
-"The Secret History by Donna Tartt (1992)"
+"1984" by George Orwell, dystopian fiction
+"To Kill a Mockingbird" by Harper Lee, novel
+"Pride and Prejudice" by Jane Austen, novel
+"The Great Gatsby" by F. Scott Fitzgerald, novel
+"Moby-Dick" by Herman Melville, novel
+"Jane Eyre" by Charlotte Brontë, novel
+"Frankenstein" by Mary Shelley, gothic novel
+"The Catcher in the Rye" by J.D. Salinger, novel
+"Wuthering Heights" by Emily Brontë, novel
+"Brave New World" by Aldous Huxley, dystopian fiction
+"The Picture of Dorian Gray" by Oscar Wilde, novel
+"The Adventures of Huckleberry Finn" by Mark Twain, novel
+"The Canterbury Tales" by Geoffrey Chaucer, poetry
+"Sense and Sensibility" by Jane Austen, novel
+"Dracula" by Bram Stoker, gothic novel
+"The Lord of the Rings" by J.R.R. Tolkien, fantasy trilogy
+"The Scarlet Letter" by Nathaniel Hawthorne, novel
+"Great Expectations" by Charles Dickens, novel
+"Emma" by Jane Austen, novel
+"Animal Farm" by George Orwell, allegorical novella
+"Oliver Twist" by Charles Dickens, novel
+"The Strange Case of Dr. Jekyll and Mr. Hyde" by Robert Louis Stevenson, novella
+"Treasure Island" by Robert Louis Stevenson, adventure novel
+"A Tale of Two Cities" by Charles Dickens, novel
+"Little Women" by Louisa May Alcott, novel
+"Alice's Adventures in Wonderland" by Lewis Carroll, novel
+"Lord of the Flies" by William Golding, novel
+"David Copperfield" by Charles Dickens, novel
+"The Importance of Being Earnest" by Oscar Wilde, play
+"The Grapes of Wrath" by John Steinbeck, novel

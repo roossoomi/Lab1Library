@@ -16,10 +16,10 @@ public class Library {
     }
 
     private void createBooks() {
-        createFictionBooks(10, "Russian");
-        createEducationalBooks(10, "Russian");
-        createFictionBooks(10, "English");
-        createEducationalBooks(10, "English");
+        createFictionBooks(25, "Russian");
+        createEducationalBooks(25, "Russian");
+        createFictionBooks(25, "English");
+        createEducationalBooks(25, "English");
     }
 
     private void createEducationalBooks(int numberOfBooks, String bookType) {
