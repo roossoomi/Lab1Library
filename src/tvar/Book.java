@@ -1,6 +1,6 @@
 package tvar;
 
-public abstract class Book{
+public abstract class Book {
     String title;
 
     public String GetFullDiscription() {

@@ -1,4 +1,4 @@
-public class FictionFactory implements BooksFactory{
+public class FictionFactory implements BooksFactory {
     @Override
     public RussianBook createRusBook() {
         return new RussianFiction();

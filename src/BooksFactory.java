@@ -1,5 +1,6 @@
 public interface BooksFactory {
-     RussianBook createRusBook();
-     EnglishBook createEngBook();
+    RussianBook createRusBook();
+
+    EnglishBook createEngBook();
 
 }

@@ -21,32 +21,22 @@ public class RussianFiction extends Book implements RussianBook {
             Random random = new Random();
             int randomLineNumber = random.nextInt(numberOfLines) + 1;
 
-
             br.close();
+
             BufferedReader fr = new BufferedReader(new FileReader(filePath));
-
-
             for (int i = 1; i < randomLineNumber; i++) {
                 fr.readLine();
             }
-
             title = fr.readLine();
             return title;
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("ошибувтвылдвлдцт");
-            return "ggggg";
+            return null;
         }
     }
 
-
-   /* @Override
-    public Book getFullBookTitle() {
-        return createRandomRusFic(filePath);
-    }*/
-
     @Override
-    public String toString(){
+    public String toString() {
         return GetFullDiscription();
     }
 
@@ -55,6 +45,4 @@ public class RussianFiction extends Book implements RussianBook {
         String FullTitle = this.title;
         return FullTitle;
     }
-
-
 }

@@ -1,17 +1,18 @@
 package people;
+
 import tvar.Book;
+
 import java.util.ArrayList;
 
 public abstract class People {
     public String surname;
     public String name;
-    public String sex;
-    public ArrayList<Book> userListBook; // Изменение типа списка
+    public ArrayList<Book> userListBook;
 
     public People(String surname, String name) {
         this.surname = surname;
         this.name = name;
-        userListBook = new ArrayList<Book>(); // Инициализация списка в конструкторе
+        userListBook = new ArrayList<Book>();
     }
 
     public ArrayList<Book> getUserListBook() {
