@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class CreatingPersons {
-    public static ArrayList<Object> users = new ArrayList<>();
+    public static ArrayList<People> users = new ArrayList<>();
 
     private static final String[] maleNames = {"Иван", "Олег", "Макар", "Владимир", "Петр", "Роман", "Семен", "Александр", "Виктор", "Константин", "Денис", "Даниил", "Ефим", "Егор", "Игнат"};
     private static final String[] femaleNames = {"Анна", "Мария", "Елена", "Ольга", "Татьяна", "Ирина", "Светлана", "Наталья", "Екатерина", "Александра", "Валентина", "Людмила", "Надежда", "Вера", "Лариса", "Галина"};
