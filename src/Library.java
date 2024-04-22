@@ -57,7 +57,7 @@ public class Library {
                 case "English":
                     EnglishFiction englishFiction = (EnglishFiction) fictionFactory.createEngBook();
                     library.add(englishFiction);
-                    englishFiction.createRandomEngFic();
+                    englishFiction.createRandomEngFic().toString();
                     break;
                 default:
                     System.out.println("Unsupported book type");
