@@ -30,12 +30,12 @@ public class Library {
                 case "Russian":
                     RussianEducational russianEducational = (RussianEducational) educatedFactory.createRusBook();
                     library.add(russianEducational);
-                    russianEducational.createRandomRusEd().toString();
+                    russianEducational.createRandomRusEd();
                     break;
                 case "English":
                     EnglishEducational englishEducational = (EnglishEducational) educatedFactory.createEngBook();
                     library.add(englishEducational);
-                    englishEducational.createRandomEngEd().toString();
+                    englishEducational.createRandomEngEd();
                     break;
                 default:
                     System.out.println("Unsupported book type");
@@ -52,12 +52,12 @@ public class Library {
                 case "Russian":
                     RussianFiction russianFiction = (RussianFiction) fictionFactory.createRusBook();
                     library.add(russianFiction);
-                    russianFiction.createRandomRusFic().toString();
+                    russianFiction.createRandomRusFic();
                     break;
                 case "English":
                     EnglishFiction englishFiction = (EnglishFiction) fictionFactory.createEngBook();
                     library.add(englishFiction);
-                    englishFiction.createRandomEngFic().toString();
+                    englishFiction.createRandomEngFic();
                     break;
                 default:
                     System.out.println("Unsupported book type");
