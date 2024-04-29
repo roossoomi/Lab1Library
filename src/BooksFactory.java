@@ -1,6 +1,7 @@
-public interface BooksFactory {
-    RussianBook createRusBook();
+import bookPackage.Book;
 
-    EnglishBook createEngBook();
+public interface BooksFactory {
+    Book createRusBook();
+    Book createEngBook();
 
 }

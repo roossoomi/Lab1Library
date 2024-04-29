@@ -25,19 +25,16 @@ public class Users {
     public void distributeUsersBooks(People user, Library library) {
         int booksQuantity = new Random().nextInt(8) + 3;
 
+        whileLoop:
         while (user.getUserListBook().size() < booksQuantity) {
             int index = new Random().nextInt(library.getLibrary().size());
             Book book = library.getLibrary().get(index);
-            int sum = 0;
             for (Book bookUser : user.getUserListBook()) {
                 if (bookUser.GetFullDiscription() == book.GetFullDiscription()) {
-                    sum++;
+                    continue whileLoop;
                 }
             }
-
-            if (sum == 0) {
-                user.addBook(book);
-            }
+            user.addBook(book);
         }
     }
 }

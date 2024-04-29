@@ -24,46 +24,33 @@ public class Library {
 
     private void createEducationalBooks(int numberOfBooks, String bookType) {
         BooksFactory educatedFactory = new EducationalFactory();
-
         for (int i = 0; i < numberOfBooks; i++) {
-            switch (bookType) {
-                case "Russian":
-                    RussianEducational russianEducational = (RussianEducational) educatedFactory.createRusBook();
-                    library.add(russianEducational);
-                    russianEducational.createRandomRusEd();
-                    break;
-                case "English":
-                    EnglishEducational englishEducational = (EnglishEducational) educatedFactory.createEngBook();
-                    library.add(englishEducational);
-                    englishEducational.createRandomEngEd();
-                    break;
-                default:
-                    System.out.println("Unsupported book type");
-                    break;
+            if (bookType == "Russian") {
+                RussianEducational russianEducational = (RussianEducational) educatedFactory.createRusBook();
+                library.add(russianEducational);
+            } else {
+                EnglishEducational englishEducational = (EnglishEducational) educatedFactory.createEngBook();
+                library.add(englishEducational);
+
             }
         }
     }
 
+
     private void createFictionBooks(int numberOfBooks, String bookType) {
         BooksFactory fictionFactory = new FictionFactory();
-
         for (int i = 0; i < numberOfBooks; i++) {
-            switch (bookType) {
-                case "Russian":
-                    RussianFiction russianFiction = (RussianFiction) fictionFactory.createRusBook();
-                    library.add(russianFiction);
-                    RussianFiction.createRandomRusFic();
-                    break;
-                case "English":
-                    EnglishFiction englishFiction = (EnglishFiction) fictionFactory.createEngBook();
-                    library.add(englishFiction);
-                    EnglishFiction.createRandomEngFic();
-                    break;
-                default:
-                    System.out.println("Unsupported book type");
-                    break;
+            if (bookType == "Russian") {
+                RussianFiction russianFiction = (RussianFiction) fictionFactory.createRusBook();
+                library.add(russianFiction);
+            } else {
+                EnglishFiction englishFiction = (EnglishFiction) fictionFactory.createEngBook();
+                library.add(englishFiction);
+
             }
         }
+
+
     }
 
 }
